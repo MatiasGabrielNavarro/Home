@@ -167,9 +167,11 @@ footer .container {
     height: 4em;
 }
 footer p {
+    display: flex;
    font-size: 14px;
-   margin-left: 7px;
+   margin-left: 12px;
    margin-top: 2em;
+   justify-content: center;
 }
 
 
