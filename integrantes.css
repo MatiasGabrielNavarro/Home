@@ -5,10 +5,7 @@
   }
 p {font-size: 1em;}
 
-.container {
-    max-width: 1400px;
 
-}
 
 header { 
     background-color: #fbf9f9;
@@ -70,7 +67,7 @@ body {
     width: 13em;
     background-color: #fbf9f9 ;
     border-radius: 20px;
-    margin-left: 1em;
+    margin-left: 4em;
 }        
 .fondo-antartida img {
     display: flex;
@@ -150,6 +147,8 @@ footer {
 footer .container {
     display: flex;
     height: 4em;
+    align-items: center;
+    text-align: center;
 }
 footer p {
     display: flex;
@@ -162,10 +161,11 @@ footer p {
 
 
 
+
 @media (min-width: 720px) {
     header .container {
-        flex-direction: row
-
+        flex-direction: row;
+        margin-left: 1em;
     }
     header nav {
         flex-direction: row;
@@ -179,7 +179,6 @@ footer p {
         width: 9em;
         height: 9em;
     }
-
     .section1 .container {
         display: inline;
         margin-left: -20em;
@@ -189,5 +188,37 @@ footer p {
         width: 18em;
         height: 18em;
         display: inline-block;
+    }
+
+    .section2 .contenedor {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: -4em;
+        margin-left: 2em;
+    }
+    .fondogris1 {
+    width: 23em;
+    height: 17em;
+    margin: 4em
+    }
+    .fondogris1 img {
+    width: 12em;
+    height: 11em;
+    margin-top: 3em;    
+    }
+    .fondogris1  p {
+        margin-left: 12.5em;
+        margin-top: -9.5em;
+    }
+    .fondogris1 button{
+        margin-left: 4em;
+        padding: 1.5em 2.5em;
+    } 
+    footer .bear-text {
+        margin-left: 109em;
+
+        
     }
 }
